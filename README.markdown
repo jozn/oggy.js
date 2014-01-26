@@ -1,12 +1,9 @@
 Prototype
 =========
 
-#### An object-oriented JavaScript framework ####
+Proto.js is a JavaScript library that extends javascript core.
 
-Prototype is a JavaScript framework that aims to ease development of dynamic 
-web applications.  It offers a familiar class-style OO framework, extensive
-Ajax support, higher-order programming constructs, and easy DOM manipulation.
-
+@todo: targeted platform
 ### Targeted platforms ###
 
 Prototype currently targets the following platforms:
