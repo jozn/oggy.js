@@ -594,6 +594,10 @@
     return typeof object === "undefined";
   }
 
+  /*@todo should change this to safeExtend to not overwrite native methods(althao it
+  seem's ne browsers don't let overwrite native methods but we should do this.
+    */
+
   extend(Object, {
     extend:        extend,
     inspect:       inspect,
