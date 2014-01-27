@@ -1,5 +1,5 @@
 .DS_Store
 .idea
-build
+build/*.js
 
 test/unit/tmp/*
