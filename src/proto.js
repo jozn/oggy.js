@@ -1,4 +1,4 @@
 //= compat
-//= require "./prototype/prototype"
-//= require "./prototype/lang"
+//= require "./prototype"
+//= require "./lang"
 

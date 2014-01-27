@@ -22,7 +22,7 @@
  *
  *  Your scripts can check against a particular version of Prototype by
  *  examining [[Prototype.Version]], which is a version [[String]] (e.g.
- *  "<%= PROTOTYPE_VERSION %>"). The famous
+ *  . The famous
  *  [script.aculo.us](http://script.aculo.us) library does this at load time to
  *  ensure it's being used with a reasonably recent version of Prototype, for
  *  instance.
@@ -58,8 +58,8 @@ var Prototype = {
    *
    *  The version of the Prototype library you are using (e.g.
    *  "<%= PROTOTYPE_VERSION %>").
-  **/
-  Version: '<%= PROTOTYPE_VERSION %>',
+  *
+  Version:  PROTOTYPE_VERSION ,*/
 
   /**
    *  Prototype.Browser
