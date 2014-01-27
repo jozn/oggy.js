@@ -1,0 +1,21 @@
+roadmap: only for project author
+purpose of this project:
+   it's pirmery for myself, i don't care about communtiy around this project.
+   it's shiuld be small and easy for use.
+   there is no need for web api like underscore or prototype, source code is enough
+       specially that this is for myself and is a small project.
+
+i use first prototype source it will be sufficent for the ads project then for
+ mardomsara i will add underscore api.
+so prototype version 0.5 plus underscore version 1.0
+
+=======
+testing
+i will use prototype testing for version 0.5
+and for version 1.0 i will add (only modify-not rewrite) underscore test too.
+
+=======
+sprockets
+i will read it today
+file structure should be simple and sprockets should only compact them nothing
+ more.
