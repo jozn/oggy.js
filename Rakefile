@@ -18,20 +18,21 @@ task :build do
   env = Sprockets::Environment.new
   env.prepend_path 'src/'
   lib_path = 'oggy.js'
+  lib_name = 'oggy'
 
   #build uncompressed file with comments
-  File.open("./build/proto.js","w") do |f|
+  File.open("./build/#{lib_name}.js","w") do |f|
     f.write env[lib_path].to_s
   end
 
   #build uncompressed file with comments striped
-  File.open("./build/proto-comact.js","w") do |f|
+  File.open("./build/#{lib_name}-comact.js","w") do |f|
     f.write comment_strip(env[lib_path].to_s)
   end
 
   #build compressed file (minified)
   env.js_compressor= :yui  #or uglifier
-  File.open("./build/proto-min.js","w") do |f|
+  File.open("./build/#{lib_name}-min.js","w") do |f|
     f.write env[lib_path].to_s
   end
 
